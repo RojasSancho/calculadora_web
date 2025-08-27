@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- Indica al browser que es un doc HTML5 -->
+<html lang="es">
+
+<!-- Contiene info meta del sitio (no visible directamente) -->
+<head> 
+    <meta charset="UTF-8"> <!-- Codificacion de caracteres del sitio -->
+    <title>Calculadora Web</title> <!-- Title que aparece en la pestana del browser -->
+    <link rel="stylesheet" href="style.css"> <!-- link importa recursos externos al HTML -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<!-- Contiene lo visible en la pagina -->
+<body>
+    <h1>Calculadora</h1>
+    <div id="calculator">
+        <div id="display">0</div>
+        <div class="special_buttons">
+            <button>AC</button>
+            <button>
+                <img src="borrar.png" alt="Borrar" width="38">
+            </button>
+            <button>%</button>
+        </div>
+        <div class="buttons"> <!-- Class es para grupos de elementos que comparten cosas (botones) -->
+            <div class = "numbers">
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button>0</button>
+                <button>,</button>
+            </div>
+            <div class="operations">
+                <button>+</button>
+                <button>-</button>
+                <button>*</button>
+                <button>/</button>
+                <button>=</button>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>
